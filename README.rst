@@ -39,4 +39,4 @@ The ``QconCATquantSTAR.py`` script can be used as follows:
     
 The DDA PeptideGroups results table and the QconCAT input table should be given as the ``i`` and the ``Q`` argument, respectively.
 
-The output will be generated at ``QconCATproteins.csv``. The output is formatted with the following column headers: ``ProteinName`` (UniProt identifier of the quantified endogenous protein) and ``conc_sample{X}`` (concentration of the quantified endogenous protein). There will be as many columns with concentrations as there are samples.
+The output will be generated at ``QconCATproteins.csv``. The output table is formatted with the following column headers: ``ProteinName`` (UniProt identifier of the quantified endogenous protein) and ``conc_sample{X}`` (concentration of the quantified endogenous protein). There will be as many columns with concentrations as there are samples. An example output table is located in the ``Examples`` folder as ``QconCATproteins_example.csv``.
