@@ -8,12 +8,12 @@ Description
 
 The ``QconCATquantSTAR.py`` script allows the quantification of endogenous proteins for which a QconCAT internal standard was spiked-in. Protein abundances from a DDA method analysed with ProteomeDiscoverer (Thermo Fisher Scientitific, Waltham, MA, USA) are used for protein quantification in combination with concentration values of spiked-in QconCAT standard proteins.
 
-The repository is supporting material for the STAR protocol "Design, expression and purification of labeled peptides for absolute quantification of Gram-negative bacteria proteins".
+The repository is supporting material for the STAR protocol "Design, expression and purification of labeled peptides for absolute quantification of Gram-negative bacterial proteins".
 
 Input data
 ==========
 
-The DDA PeptideGroups results table (.CSV file) should be exported for ProteomeDiscoverer. This results table should at least include the following headers: ``Annotated Sequence``, ``Modifications``, ``Master Protein Accessions``, and ``Abundances (Normalized): F{X}: Sample`` for each sample X. An example DDA PeptideGroups results table is located in the ``Examples`` folder as ``DDA_PeptideGroups_example.csv``.
+The DDA PeptideGroups results table (.CSV file) should be exported from ProteomeDiscoverer. This results table should at least include the following headers: ``Annotated Sequence``, ``Modifications``, ``Master Protein Accessions``, and ``Abundances (Normalized): F{X}: Sample`` for each sample X. An example DDA PeptideGroups results table is located in the ``Examples`` folder as ``DDA_PeptideGroups_example.csv``.
 
 The QconCAT input table (.CSV file) should have the following structure including headers. The ``FullPeptideName`` column should have the sequence of each peptide included in the QconCAT internal standards, the ``ProteinName`` column should have the UniProt identifier of the endogenous protein of the corresponding peptide sequence, and the ``Concentration`` column should have the spiked-in concentration of each QconCAT peptide. An appropriate concentration unit would be fmol/µg total protein, since the spiked-in QconCAT protein and the corresponding QconCAT peptides have equimolar concentration. The unit of concentration used in the QconCAT input table will be the unit of concentration in the output table with the quantified endogenous proteins.
 
