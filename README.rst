@@ -8,7 +8,7 @@ Description
 
 The ``QconCATquantSTAR.py`` script allows the quantification of endogenous proteins for which a QconCAT internal standard was spiked-in. Protein abundances from a DDA method analysed with ProteomeDiscoverer (Thermo Fisher Scientitific, Waltham, MA, USA) are used for protein quantification in combination with concentration values of spiked-in QconCAT standard proteins.
 
-The repository is supporting material for the STAR protocol "Design, expression and purification of labeled peptides for absolute quantification of Gram-negative bacterial proteins".
+The repository is supporting material for the `STAR protocol <https://doi.org/10.1016/j.xpro.2023.102060>`_ "Protocol for absolute quantification of proteins in Gram-negative bacteria based on QconCAT-based labeled peptides".
 
 Input data
 ==========
